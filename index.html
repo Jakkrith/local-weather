@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Local Weather App</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="jumbotron">
+  <h3 class="text-center">Weather Weather</h3>
+  <div class="row">
+    <div class="col-6">
+      <div id="sky-image"></div>
+  <div id="location"></div>
+  <div id="weather-id"></div>
+      <div>Temperature: <span id="temperature"></span> &deg<a href="#" id="toCelsius">C</a> | &deg<a href="#" id="toFahrenheit">F</a></div>
+      <div>Wind speed: <span id="wind-speed"></span></div>
+  <div id="humidity"></div>
+    </div>
+    <div class="col-6">
+      <br>
+      <p><em>Thanks to:</em></p>
+      <ul>
+        <li><a href="https://ipinfo.io/">ipinfo.io</a></li>
+        <li><a href="https://openweathermap.org/api">OpenWeatherMap</a></li>
+        <li><a href="https://www.freecodecamp.com/">freeCodeCamp</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<footer class="text-center">by <a href="https://codepen.io/joshuadelosreyes">josh</a></footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
